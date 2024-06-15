@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: Arial, sans-serif;
+}
+.card{
+    background-color:hsl(0, 0%, 100%);
+    border: 1px solid black;
+     height: 380px;
+     width: 270px;
+     border-radius: 15px;
+     box-shadow:7px 7px ;
+}
+.out{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incard{
+    display: flex;
+    justify-content: center;
+}
+.incard img{
+    border-radius: 20px;
+}
+
+#inbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    height: 5px;
+    width: 60px;
+    background-color:hsl(47, 87%, 50%) ;
+    font-weight: bold;
+}
+#tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding: 10px;
+    height: 5px;
+    width: 60px;
+    margin-top: 5px;
+}
+#lol{
+    font-size: 0.8rem;
+    padding: 15px;
+}
+.big{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight:bolder;
+}
+.content{
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color:gray ;
+    font-family:Calibri;
+}
+.hehe{
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+}
+.image{
+    display: flex;
+}
+
+.image p{
+    margin-top: 25px;
+    margin-left:0px;
+    font-size: 0.8rem;
+    font-weight:bold;
+    font-family:Roboto;
+}
